@@ -58,7 +58,7 @@ following props:
  a stacking context when it's not being animated.
 * `constrainDrag` is an option property that defaults to false.  If it is set to
 true, then the y-coordinate of a dragged item will be constrained vertically to
-the bounds of the list.
+ the bounds of the list.
 * `autoScrollMaxSpeed` is an optional number that allows the scroll speed when
  the user drags to the top or bottom of the list to be overridden.
 * `autoScrollRegionSize` is an optional number that allows the height of the
@@ -72,7 +72,7 @@ A DraggableList instance has the following methods:
 
 ## Template
 
-The template component is passed the following props:
+The template component is passed to the following props:
 
 * `item` is an object from the list prop passed to DraggableList.
 * `itemSelected` is a number from 0 to 1. It starts at 0, and quickly increases
